@@ -1,0 +1,28 @@
+body{
+  font-size:13px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+ background-color: rgb(255, 255, 255); 
+ margin-left: -10px;
+   }
+ ul#menu-left li{
+   color:#0000;
+   display: inline;   
+  list-style-type: none;   
+  padding: 0px, 20px;
+  margin: 0px, 20px;
+ }  
+ ul #menu-right li{
+   color: #0000;
+   display: inline;
+   list-style-type: none;
+   align-items: right;  
+ } 
+.left {
+     background-color: aqua;
+     padding:10px 20px 50px 5px
+}
+.right {
+    background-color: azure;
+    padding:5px 50px 20px 10px;
+
+}
