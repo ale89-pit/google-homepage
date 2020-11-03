@@ -1,28 +1,67 @@
 body{
-  font-size:13px;
+  margin:10px 15px 5px 5px;
+  font-size:14px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
- background-color: rgb(255, 255, 255); 
- margin-left: -10px;
    }
- ul#menu-left li{
-   color:#0000;
-   display: inline;   
-  list-style-type: none;   
-  padding: 0px, 20px;
-  margin: 0px, 20px;
- }  
- ul #menu-right li{
-   color: #0000;
-   display: inline;
-   list-style-type: none;
-   align-items: right;  
- } 
-.left {
-     background-color: aqua;
-     padding:10px 20px 50px 5px
+  a{
+    text-decoration: none;
+    color:#000000;
+  }  
+  a:hover {
+    color: hsl(241, 77%, 52%);
+    }
+ ul li{
+  display: inline;   
+  list-style-type: none;
+ }
+ li{
+ padding-right: 10px;
+ 
 }
-.right {
-    background-color: azure;
-    padding:5px 50px 20px 10px;
+ 
+ .left
+    {
+      padding: 0em;
+      
+    }
 
+.right {
+   padding-left: 10px;
+   float: right;
+} 
+
+.center-logo {
+  padding-top: 109px;
+  text-align: center;
+   }
+  
+img
+  {
+    width: 22%;
+    height: 60%;
+    padding-bottom: 20px;
+  }
+  .testo{
+    padding-bottom: 20px;
+  }
+  label{
+    padding-right: 20px;
+  }
+ [type= 'text']
+  {
+    border-radius: 20px;
+    text-align: center;
+    width: 40%;
+    height: 40px;
+     } 
+
+[type='submit']{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  padding: 10px 40px;
+
+}
+footer{
+  
+ padding-top: 15%;
 }
