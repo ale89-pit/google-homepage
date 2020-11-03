@@ -21,7 +21,7 @@ body{
  
  .left
     {
-      padding: 0em;
+      padding: 10px;
       
     }
 
@@ -61,7 +61,16 @@ img
   padding: 10px 40px;
 
 }
+.login{
+  color:white;
+  background-color: mediumblue;
+  padding:5px 20px;
+}
 footer{
   
- padding-top: 15%;
+ padding-top: 12%;
+}
+.sfondo{
+  background-color: darkgrey;
+ 
 }
